@@ -22,7 +22,7 @@ int main(void)
       //Corresponds to Timer0
       TA0CCTL0 = CCIE; // Enable interrupt in compare mode
       TA0CTL = TASSEL_2 + MC_1 + ID_2; // SMCLK/4, Up
-      TA0CCR0 = 250000/ 5; // 250000 / 5 = 25000, (10^6 [Hz] / 4) / (25000) = 10Hz
+      TA0CCR0 = 250000/ 5; // 250000 / 5 = 50000, (10^6 [Hz] / 4) / (50000) = 5Hz
 
       //Toggle P1.6 LED Faster
       //Corresponds to Timer1
