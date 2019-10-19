@@ -1,4 +1,12 @@
-
+/******************************************************************************
+// LAB 3: Timers and Interrupts
+//
+// MSP430G2553 Button-Interrupt
+//
+// Kyle Limbaga
+// Rowan University
+// Date Created: October 5, 2019
+// Date Updated: October 19, 2019
 //******************************************************************************
 
 #include <msp430.h>
